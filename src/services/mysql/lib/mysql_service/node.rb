@@ -723,7 +723,7 @@ class VCAP::Services::Mysql::Node
       "user" => user,
       "username" => user,
       "password" => passwd,
-      "uri" => "mysql2://#{user}:#{passwd}@#{host}:#{@mysql_config['port']}/#{name}",
+      "uri" => "mysql://#{user}:#{passwd}@#{host}:#{@mysql_config['port']}/#{name}",
     }
   end
 
